@@ -10,7 +10,7 @@ Right now, the number of columns per line to format is a hard-coded value. Using
 `test.txt` contains a test file that doesn't break the plugin as it is in its current state.
 
 #### How To Try It Out
-First, add `colist.py` to you packages folder. This varies based on your OS.
+First, add `colist.py` to your packages folder. This varies based on your OS.
 
 * **Windows:** %APPDATA%\Sublime Text 3
 * **OS X:** /Users/{user}/Library/Application Support/Sublime Text 3/Packages
@@ -23,4 +23,4 @@ Open `test.txt` in Sublime 3 and select the whole file (`ctrl+a`). Open the cons
 * handle varying columns per line (i.e. align as many columns as possible, then just space properly)
 * handle nested commas (i.e. correctly formatting a list of lists/tuples/etc.)
 * handle indentation of list (i.e. indent subsequent lines flush to first)
-* handle list delimiters (i.e. ignore if selected? make design decision to require selecting inside$
+* handle list delimiters (i.e. ignore if selected? make design decision to require selecting inside only?
