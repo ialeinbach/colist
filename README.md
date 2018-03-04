@@ -3,11 +3,11 @@ A plugin for Sublime Text 3 that formats multi-line lists into columns.
 THIS IS VERY MUCH A WORK IN PROGRESS.
 
 #### Usage Notes
-Right now, the number of columns per line to format is a hard-coded value. Using a value larger tha$
+Right now, the number of columns per line to format is a hard-coded value. Using a value larger than the number of commas in the line with the least will cause an error.
 
 #### Files In This Repo
 `colist.py` contains the code for the plugin.   
-`test.txt` contains a test file that exists in the scope of the current functionality of the plugin$
+`test.txt` contains a test file that doesn't break the plugin as it is in its current state.
 
 #### How To Try It Out
 First, add `colist.py` to you packages folder. This varies based on your OS.
