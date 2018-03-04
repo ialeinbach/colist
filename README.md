@@ -23,4 +23,4 @@ Open `test.txt` in Sublime 3 and select the whole file (`ctrl+a`). Open the cons
 * handle varying columns per line (i.e. align as many columns as possible, then just space properly)
 * handle nested commas (i.e. correctly formatting a list of lists/tuples/etc.)
 * handle indentation of list (i.e. indent subsequent lines flush to first)
-* handle list delimiters (i.e. ignore if selected? make design decision to require selecting inside only?
+* handle list delimiters (i.e. ignore if selected? make design decision to require selecting inside only?)
